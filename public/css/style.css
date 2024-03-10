@@ -1,0 +1,365 @@
+
+:root {
+    --blue: #26CCCF;
+    --jet: #3a3b3b;
+    --orange: #F6AE2D;
+    --green: #8BEB1E;
+}
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+
+body{
+background: white;
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+    padding: 0;
+    margin: 0;
+}
+p {
+    font-size: 1.1rem;
+    padding: 0;
+}
+
+#greetings {
+    min-height: 100vh;
+    background-color: white;
+}
+
+.links {
+    display: flex;
+    justify-content: right;
+    padding-top: 1rem;
+    height: 10vh;
+}
+
+.p {
+    padding: 2rem;
+}
+
+.bi {
+    font-size: 2rem;
+    color: var(--blue);
+}
+
+.bi:hover {
+    color: var(--orange);
+}
+
+.heading {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.greeting {
+ padding: 0;
+}
+.greeting-h1 {
+font-size: 4rem;
+font-weight: 600;
+color: var(--jet);
+
+}
+
+.name-h1 {
+    color: var(--blue);
+}
+
+.nav-link {
+    border: solid var(--blue);
+    color: var(--blue);
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0 1rem;
+}
+
+.nav-link:hover{
+    background-color: var(--orange);
+    border-color: var(--orange);
+    color: white;
+}
+
+
+
+#skills {
+    background-color: var(--blue);
+    padding: 5rem 0;
+}
+
+#skills h1{
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+.skills-list {
+
+}
+
+.container {
+    width: 50%;
+}
+
+.skill-img{
+    height: 60px;
+    width: 60px;
+}
+
+.skill-img:hover{
+   background-color: white;
+   border-radius: 50%;
+}
+
+
+#portfolio {
+    min-height: 100vh;
+    background-color: white;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+
+#portfolio h1{
+    font-size: 3.5rem;
+    color: var(--jet);
+    padding-top: 3rem;
+}
+
+.project {
+    padding: 2rem;
+
+}
+
+.project:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project-img{
+    height: 250px;
+    width: 500px;
+    border: 1px solid grey;
+    border-radius: 5px;
+
+}
+
+.project-img:hover {
+    border: 1px solid var(--orange);
+    border-radius: 5px;
+}
+
+.project-info {
+    padding: 2rem 0;
+    text-align: left;
+    width: 50ch;
+}
+
+
+.filler1 {
+    position: relative;
+    height: 30vh;
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+    border: none;
+
+}
+
+.filler1:before { 
+    content: '';
+    position: absolute;
+    width: 120%; 
+    height: 500px; 
+    background-color: var(--blue); /* fallback */
+    background-color: var(--blue);
+    bottom: 5rem;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    transform: rotate(5deg);
+    border: none;
+
+}
+
+.filler2 {
+    position: relative;
+    height: 30vh;
+    width: 100%;
+    overflow: hidden;
+    background-color: var(--blue);
+    border: none;
+
+}
+
+.filler2:before { 
+    content: '';
+    position: absolute;
+    width: 120%; 
+    height: 500px; 
+    background-color: var(--blue); /* fallback */
+    background-color: white;
+    bottom: 5rem;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    transform: rotate(5deg);
+    border: none;
+
+}
+
+#about {
+    background-color: var(--blue);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 2rem;
+
+
+}
+
+.pic-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-pic {
+    height: 500px;
+    width: 500px;
+    border-radius: 100%;
+    border-width: 1rem;
+    border-style: inset;
+    border-color: var(--blue);
+
+  
+}
+
+#about h1 {
+    font-size: 3.5rem;
+}
+
+#contact {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact h1 {
+    padding-top: 3rem;
+    font-size: 3.5rem;
+}
+
+.contact-container {
+    width: 80%;
+}
+
+.contact {
+    border: solid white;
+    border-radius: 20px;
+    padding: 3rem 2rem;
+}
+
+.contact:hover {
+    border: solid var(--orange);
+}
+
+.btn:hover {
+    background-color: var(--orange);
+    border: white;
+}
+
+.input-field {
+    width: 100%;
+    border-style: none;
+    border-bottom: solid var(--jet);
+}
+
+hr {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 10px;
+    border-radius: 100%;
+
+}
+
+#footer {
+    background-color: var(--jet);
+    min-height: 20vh;
+}
+
+@media screen and (max-width: 480px) {
+    .p{
+        padding: 1.5rem;
+    }
+    #greetings h1{
+        font-size: 3rem;
+    }
+    .nav-link{
+        font-size: 1rem;
+    }
+    #skills h1{
+        font-size: 2rem;
+    }
+    #portfolio {
+        width: 100%;
+    }
+    #portfolio h1{
+        font-size: 2rem;
+        padding: 0;
+    }
+    .project {
+        padding: 10px 0;
+    }
+    .project-img{
+        width: 100%;
+        height: 20vh;
+    }
+    .project-info {
+        text-align: center;
+
+    }
+    #about h1{
+        font-size: 2rem;
+    }
+    #contact h1 {
+        font-size: 2rem;
+    }
+    .skill-img{
+        height: 30px;
+        width: 30px;
+    }
+    .container {
+        width: 100%;
+    }
+    .contact-container{
+        width: 100%;
+    }
+    .my-pic{
+        height: 200px;
+        width: 200px;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 990px) {
+    .my-pic{
+        height: 350px;
+        width: 350px;
+    }
+}
+@media screen and (min-width: 990px) and (max-width: 1256px) {
+    .my-pic{
+        height: 400px;
+        width: 400px;
+    }
+}
